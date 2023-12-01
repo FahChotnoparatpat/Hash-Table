@@ -1,9 +1,15 @@
 # Markov Models with Hash Table
-This is a modeling system project using Markov Models to capture the statistical relationships present in speeches. The model is used in analyzing actual text and assessing the likelihood of a specific word uttered by the speaker.
+This is a modeling system project using Markov Models to capture the statistical relationships present in speeches. The model is used in analyzing actual text and assessing the likelihood of a specific word uttered by the speaker.  
+
+Markov Class includes the following methods:
+* Identify Speaker: Given sample text from two speakersand text from an unidentified speaker, conclusion of which speaker uttered the unidentified text is given based on the two probabilities.
+
+* Log Probability: The log probability of a speech is calculated given the statistics of character sequences modeled by the Markov model
 
 
-The project involves a hash tables module, which creates data structures that store associations between keys and values. Hashtable Class includes the following methods:
+The project involves a hash tables module, which creates data structures that store associations between keys and values. The hash table is used to store probabilities associated with specific letters to help us form words likely to be spoken in a speech. 
 
+Hashtable Class includes the following methods:
 
 * Set: A hashtable is set up with a specified length and key-value pairs
 
